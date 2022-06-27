@@ -58,19 +58,29 @@
     "detective-stylus": "^1.0.0",
     "detective-typescript": "^7.0.0",
     "graphviz": "0.0.9",
+    "madge": "link:",
     "ora": "^5.4.1",
     "pluralize": "^8.0.0",
     "precinct": "^8.1.0",
     "pretty-ms": "^7.0.1",
     "rc": "^1.2.7",
-    "typescript": "^3.9.5",
     "walkdir": "^0.4.1"
   },
   "devDependencies": {
     "@aptoma/eslint-config": "^7.0.1",
-    "eslint": "^7.29.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^21.0.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
     "mocha": "^9.0.1",
     "mz": "^2.7.0",
-    "should": "^13.2.3"
+    "should": "^13.2.3",
+    "tsx": "^3.6.0",
+    "typescript": "*",
+    "vite": "^2.9.12",
+    "vitest": "^0.16.0"
   }
 }
